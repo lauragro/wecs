@@ -27,4 +27,5 @@ To do:
   14. Add resources content
   15. Add links to contact us page and make it look good
   16. Make button to automatically join mailing list in contact us page
-  
+  17. Add csc revealed content
+  18. Make list for selecting semester to view in events page

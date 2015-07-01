@@ -98,6 +98,10 @@ p#mission_statement {
     max-width: 40%;
 }
 
+p.bold {
+    font-weight:bold;
+}
+
 #person {
     max-width:20%;
     max-height:20%;
@@ -117,3 +121,9 @@ img {
     height: 300px;
 }
 
+table#speakers_table {
+    padding: 1%;
+}
+th, td {
+    padding: 1%;
+}

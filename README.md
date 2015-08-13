@@ -24,7 +24,7 @@ To do:
   11. Add social media links using icons on index page
   12. Add outreach content
   13. Add speaker series content
-  14. Add resources content
+  14. Add resources content - LAURA
   15. Add links to contact us page and make it look good
   16. Make button to automatically join mailing list in contact us page
   17. Add csc revealed content

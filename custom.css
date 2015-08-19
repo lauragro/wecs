@@ -13,6 +13,10 @@ body {
 	height:100%;
 	position:relative;
 }
+
+#wrapper #header {
+    color: white;
+}
 #footer {
 	width:100%;
 	height:50px;
@@ -25,13 +29,13 @@ body {
     padding-bottom:50px;   /* Height of the footer element */
     padding-left:  15px;
     padding-right: 15px;
-    background-color: #FFFF33;
+    background-color: #ffe7a9;
     border-radius: 0 0 5px 5px;
     overflow: auto;
 }
 
 h1:before {
-    background-image: url('images/wecslogo_circle.png');
+    background-image: url('images/wecslogo_transparent.png');
     background-position: left center;
     background-repeat: no-repeat;
     padding: 50px;
@@ -77,17 +81,17 @@ ul#menu li a {
     background-color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
-    color: #696969;
+    color: #3399FF;
     border-radius: 4px 4px 0 0;
 }
 
 ul#menu li a:hover {
     color: white;
-    background-color: black;
+    background-color: #696969;
 } 
 
 #nav {
-    width: "100%"
+    width: "200%"
 }
 
 p#mission_statement {
@@ -119,6 +123,10 @@ img {
     padding: 2.5%;
     float: left;
     height: 300px;
+}
+
+#name {
+    text-align: center;
 }
 
 table#speakers_table {

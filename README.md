@@ -13,9 +13,9 @@ Please write your name next to the task you will be working on. Feel free to sub
 To do:
   1. Fix footer to bottom of page
   2. Include all members in about us page
-  3. Create alumni section for about us page
+  3. Create alumni section for about us page - Aldyn
   4. Make pictures larger when clicked in about us and events pages
-  5. Include bios in about us page when picture is clicked
+  5. Include bios in about us page when picture is clicked - Aldyn
   6. Add member positions to about us page
   7. Make navigation bar span whole width of main content
   8. Gather missing pictures for members in about us page

@@ -11,7 +11,7 @@ To stay organized, the following is a list of tasks left to complete.
 Please write your name next to the task you will be working on. Feel free to subdivide and add new tasks!
 
 To do:
-  1. Fix footer to bottom of page
+  1. Fix footer to bottom of page - ALDYN
   2. Include all members in about us page
   3. Create alumni section for about us page 
   4. Make pictures larger when clicked in about us and events pages

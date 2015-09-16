@@ -2,9 +2,7 @@ body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
     background-color: #66CCFF;
-    color: #3399FF;
-    padding-left: 150px;
-    padding-right: 150px;
+    color: #696969;
     padding-bottom: 0;
     margin: 0;
     height:100%;
@@ -27,8 +25,6 @@ body {
 }
 #main {
     padding-bottom:50px;   /* Height of the footer element */
-    padding-left:  15px;
-    padding-right: 15px;
     background-color: #ffe7a9;
     border-radius: 0 0 5px 5px;
     overflow: auto;
@@ -81,7 +77,7 @@ ul#menu li a {
     background-color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
-    color: #3399FF;
+    color: #696969;
     border-radius: 4px 4px 0 0;
 }
 
@@ -94,13 +90,34 @@ ul#menu li a:hover {
     width: "200%"
 }
 
-p#mission_statement {
+#mission_statement {
+    padding: 20px;
+    padding-top: 80px;
+    font-style: italic;
+    font-size: 40px;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 57px;
+}
+
+.gender-icon {
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.upcoming-events {
     background-color: white;
     padding: 20px;
-    font-style: italic;
-    font-size: 20px;
-    max-width: 40%;
+
 }
+.upcoming-events h2 {
+    text-align: center;
+}
+
 
 p.bold {
     font-weight:bold;

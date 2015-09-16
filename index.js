@@ -1,6 +1,6 @@
-$(document).ready(
-   listGoogleCalendarEvents()
-);
+$(document).ready(function() {
+    listGoogleCalendarEvents();
+});
 
 function listGoogleCalendarEvents() {
     // Get list of upcoming events formatted in JSON
@@ -12,9 +12,13 @@ function listGoogleCalendarEvents() {
         jQuery.each(data.items, function(i, item){
 
             // Render the event
-            jQuery("#gcal-events li").last().after( "<li>" + item.summary + "</li>" );
-            jQuery("#gcal-events li").last().after( "<li>" + item.description + "</li>" );
+            jQuery("#gcal-events .event").last().after( "<div class='event'>" + item.summary + "<div class='event-date'> - " + item.start.date + "</div></div>" );
+            jQuery("#gcal-events .event").last().append("<div class='hidden'>" + item.description + "</div>");
         });
+        if ($("#gcal-events .event").length > 1){
+            $("#gcal-events .event").first().remove();
+        }
     });
+
 }
 

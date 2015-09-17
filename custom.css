@@ -190,3 +190,16 @@ table#speakers_table {
 th, td {
     padding: 1%;
 }
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+
+.contact .social-link img {
+    width: 30px;
+    height: 30px;
+}

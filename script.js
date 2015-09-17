@@ -23,3 +23,5 @@ document.getElementById("footer").innerHTML =
 var div = $('#event');
 var width = div.width();
 div.css('height', width);
+
+

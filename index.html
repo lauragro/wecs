@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
 
 <head>
     <title>WECS</title>
@@ -13,17 +15,31 @@
     <div id="nav"></div>
     
     <div id="main">
-        <p id="mission_statement">"Our goal is to encourage and support gender diversity in Engineering, Computer Science, and other technical fields." - WECS Members </p>
-        <p>Google calendar</p>
-        <p>Social media links</p>
-        <p>Top Facebook post</p>
+        <div id="mission_statement">"Our goal is to encourage and support gender diversity in Engineering, Computer Science, and other technical fields."</div>
+        <div>
+            <img class="gender-icon" src="images/genderNeutral-icon.png"/>
+        </div>
+        <div class="upcoming-events">
+            <h2>Upcoming events</h2>
+            <div id="gcal-events">
+                <div class="event">There are no upcoming events.</div>
+            </div>
+        </div>
+        <div class="social">
+            <h2>Want to hear more about our events? Join the WECS community.</h2>
+            <div class = "social-media">
+                    <a class="social-link" href="https://www.facebook.com/UvicWecs"><img src="images/facebook-grey.png"/></a>
+                    <a class="social-link" href="https://twitter.com/uvicwecs"><img src="images/twitter-grey.png"/></a>
+            </div>
+        </div>
     </div>
     
     <div id="footer"></div>
     
 </div>
 
-<script src="script.js"></script>   
+<script src="script.js"></script>
+<script src="index.js"></script>
 
 </body>
 </html>

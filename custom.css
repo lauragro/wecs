@@ -2,7 +2,7 @@ body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
     background-color: #66CCFF;
-    color: #3399FF;
+    color: #696969;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 0;
@@ -27,8 +27,6 @@ body {
 }
 #main {
     padding-bottom:50px;   /* Height of the footer element */
-    padding-left:  15px;
-    padding-right: 15px;
     background-color: #ffe7a9;
     border-radius: 0 0 5px 5px;
     overflow: auto;
@@ -81,7 +79,7 @@ ul#menu li a {
     background-color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
-    color: #3399FF;
+    color: #696969;
     border-radius: 4px 4px 0 0;
 }
 
@@ -94,13 +92,65 @@ ul#menu li a:hover {
     width: "200%"
 }
 
-p#mission_statement {
+#mission_statement {
+    padding: 20px;
+    padding-top: 80px;
+    font-style: italic;
+    font-size: 40px;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 57px;
+}
+
+.gender-icon {
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.upcoming-events {
     background-color: white;
     padding: 20px;
-    font-style: italic;
-    font-size: 20px;
-    max-width: 40%;
+
 }
+.event {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+.description {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.event-date {
+    display: inline-block;
+    padding-left: 20px;
+}
+.upcoming-events h2 {
+    text-align: center;
+}
+.social {
+    text-align: center;
+    padding: 20px;
+}
+.social-media {
+    width: 145px;
+    margin: 0 auto;
+}
+.social-link img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.social-link {
+    display: inline-block;
+}
+
 
 p.bold {
     font-weight:bold;
@@ -139,4 +189,17 @@ table#speakers_table {
 }
 th, td {
     padding: 1%;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+
+.contact .social-link img {
+    width: 30px;
+    height: 30px;
 }

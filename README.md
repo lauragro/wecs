@@ -19,13 +19,13 @@ To do:
   6. Add member positions to about us page - LAURA
   7. Make navigation bar span whole width of main content
   8. Gather missing pictures for members in about us page
-  9. Embed google calender on index page
+  9. Embed google calender on index page - ALDYN
   10. Embed top facebook post on index page - ALDYN
   11. Add social media links using icons on index page -ALDYN
   12. Add outreach content - LAURA
   13. Add speaker series content - LAURA
   14. Add resources content - LAURA
-  15. Add links to contact us page and make it look good
+  15. Add links to contact us page and make it look good - ALDYN
   16. Make button to automatically join mailing list in contact us page
   17. Add csc revealed content - LAURA
   18. Make list for selecting semester to view in events page
